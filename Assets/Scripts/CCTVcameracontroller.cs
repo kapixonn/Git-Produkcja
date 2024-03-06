@@ -37,7 +37,7 @@ public class CCTVCameraController : MonoBehaviour
 
     void CheckIfPlayerVisible()
     {
-        Debug.DrawRay(cameraLens.position, cameraLens.TransformDirection(Vector3.down) * 100, Color.yellow);
+        //Debug.DrawRay(cameraLens.position, cameraLens.TransformDirection(Vector3.down) * 100, Color.yellow);
     }
 
 }
