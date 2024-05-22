@@ -45,7 +45,7 @@ public class LevelManager : MonoBehaviour
     {
         //ta funkcja jest wywo³ywana jeœli wygramy (np dojdziemy do konca poziomu)
         gameOverOverlay.SetActive(true);
-        gameOverOverlay.transform.Find("ReasonText").GetComponent<TextMeshProUGUI>().text = "Wygra³eœ!";
+        gameOverOverlay.transform.Find("ReasonText").GetComponent<TextMeshProUGUI>().text = "Wygralem!";
 
     }
     public void OnLose()
